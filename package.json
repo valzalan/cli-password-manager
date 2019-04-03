@@ -1,0 +1,17 @@
+{
+  "name": "password-manager-cli",
+  "version": "1.0.0",
+  "description": "A CLI for strong password generation and management",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zalan Valko",
+  "license": "ISC",
+  "bin": {
+    "passw": "./index.js"
+  },
+  "devDependencies": {
+    "sha3": "^2.0.1"
+  }
+}
